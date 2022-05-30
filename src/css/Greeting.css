@@ -1,0 +1,17 @@
+.greeting{
+    text-align: center;
+    color: #40514E;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    font-family: "Merriweather",serif;
+}
+
+.work{
+    text-align: center;
+    /* border: 1px solid; */
+
+}
+
+.work-logo{
+    width:10%;
+    margin: 0 10% 0 10% ;
+}

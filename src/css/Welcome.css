@@ -1,0 +1,63 @@
+h1{
+    line-height: 4;
+    z-index: 2;
+    position: relative;
+}
+
+
+.welcome{
+    text-align: center;
+    background-color: #E4F9F5;
+    color:  #40514E;;
+    font-family: "Sacramento", cursive;
+    /* border-style: solid; */
+    padding: 2.5%;
+    margin-top: 0px;
+}
+
+.profile-img{
+    z-index: 2;
+    position: relative;
+    width: 20%;
+    /* border-style: solid; */
+    margin: 25.%;
+
+}
+
+.top-cloud{
+    color: #fff;
+    width: 25%;
+    z-index: 1;
+    position: absolute;
+    right: 0%;
+    top: 5%;
+    animation:linear infinite;
+    animation-name: slideRL;
+    animation-duration: 500s;
+  }  
+  
+  .bottom-cloud{
+    width: 25%;
+    z-index: 1;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    animation:linear infinite ;
+    animation-name: slideLR;
+    animation-duration: 500s;
+  }    
+  
+  @keyframes slideRL {
+    0% { right: 10%;}
+    50%{ right: 65%;}
+    100%{ right: 10%;}
+  }
+
+  @keyframes slideLR {
+    0% { left: 10%;}
+    50%{ left: 65%;}
+    100%{ left: 10%;}
+  }
+
+
+  

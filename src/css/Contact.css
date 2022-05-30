@@ -1,0 +1,20 @@
+.contact{
+    color: #40514E;
+    text-align: center;
+    background-color: #E4F9F5;
+    padding: 2.5%;
+    margin-bottom: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    
+    
+  }
+  
+  .btn{
+    width: 15%;
+    margin: 2.5% 0 2.5% 0;
+    text-align: center;
+  }
+
+  .copyright{
+    padding: 3% 0 0 0;
+  }

@@ -1,0 +1,38 @@
+.navbar{
+
+    background: transparent; 
+    color:  #40514E !important;
+    /* border-style: solid; */
+    margin: 2.5%;
+  }
+
+
+ .nav-link, .dropdown-item{
+    color:  #40514E !important;
+  }
+  #basic-nav-dropdown {
+    background: transparent;
+    color: #40514E !important;
+    font-family: "Montserrat",sans-serif;
+  
+  }
+  
+  .dropdown .dropdown-menu{
+    background-color: transparent;
+    border: transparent;
+  }
+  
+  .dropdown-item:hover {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .nav-link:hover {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .navbar-brand:hover {
+    background-color: transparent;
+    text-decoration: underline;
+  }
